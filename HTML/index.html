@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devicec-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/css/all.css">
+</head>
+
+<body>
+
+    <!-- start of home -->
+    
+    <div id="header">
+        <nav class="contained">
+            <h1> <span class="vid"> VI</span>CH</h1>
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services </a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+
+        <div class="rowd">
+            <div class="header-col-1">
+                <p>Full stack developer</p>
+                <h1> Hi, I'm <span class="vid">Vivian</span> Nwokonko <br>from Nigeria</h1>
+            </div>
+            <div class="header-col-2"><img src="/images/dp3.png" alt=""></div>
+        </div>
+
+    </div>
+
+    <!-- adding of scroll bar -->
+    <a class="totop" id="to-top">
+        <span><i class="fa-solid fa-arrow-up"></i></span>
+    </a>
+
+    <!-- start of about -->
+    <div id="about">
+        <div class="contained">
+            <div class="rowd">
+                <div class="about-col-1">
+                    <img src="/images/dp7.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p>I am a certified front end developer. I am currently a back end developer trainee. If you need a
+                        responsive, appealing
+                        and easy to use website, then you are in the right space. I love to work closely with my clients
+                        and ensure I deliever nothing short of perfection. Let me help you make your dream website come
+                        alive</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skils</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front end Development</span><br>Developing Client side Interface</li>
+                            <li><span>Back end Development</span><br>Developing Server side Interface</li>
+                            <li><span>Website design</span><br>Designing Graphic user Interface</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Full Stack Developer Trainee at Aptech, Nigeria</li>
+                            <li><span>Jan - Dec 2022</span><br>Freelancer</li>
+                            <li><span>Oct - Dec 2021</span><br>Apprenticeship at HerTechTrail</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016 - 2018</span><br>MSc. Biochemistry</li>
+                            <li><span>2009 - 2014</span><br>BSc. Biochemisttry</li>
+                            <li><span>2001 - 2007</span><br>O level, FGGC, Abuloma</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of about -->
+
+    <!-- start of services -->
+    <div id="services">
+        <div class="contained">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Frontend Development</h2>
+                    <p>I develop user friendly, interactive and responsive websites using up to date technologies and
+                        design for consumers. As a front end developer I am passionate about having satisfied clients
+                    </p>
+                    <a href="#">Read more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Backend Development</h2>
+                    <p> As a back end developer, my priority is to ensure that the websites that I developed functions
+                        correctly, while using back end logic, architecture and server side programming languages.
+                    </p>
+                    <a href="#">Read more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Website Design</h2>
+                    <p>My priority while developing yoour desired website is to ensure that I create a positive and
+                        engaging user experience. I take my time to create prototypes which can be used to validate
+                        design concepts </p>
+                    <a href="">Read more</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- end of services -->
+
+
+    <!--start of portfolio  -->
+
+    <div id="portfolio">
+        <div class="contained">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/mac1.jpeg" alt="">
+                    <div class="layer">
+                        <h3>E commerce website</h3>
+                        <p>I developed an online cake and pastries shop where you can buy, pre order any cake of your
+                            choice.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/mac2.jpeg" alt="">
+                    <div class="layer">
+                        <h3>E commerce website</h3>
+                        <p>This is an online automobile needs store where you can purchase all your car needs ranging
+                            from car tyres, batteries, accesories, fluids and chemicals .</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/mac3.webp" alt="">
+                    <div class="layer">
+                        <h3>E Medical website</h3>
+                        <p>I Aam currently developing an e medical website where you can interact and consult medical
+                            proffesionala for your health challengese.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- end of portfolio -->
+
+    <!-- start of contact -->
+    <div id="contact">
+        <div class="contained">
+            <div class="rowd">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> vivianezeobi.o@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+2347039152816</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/vivian-nwokonko-b138b114a" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://www.whatsapp.com/vivygirly" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/vivygirly" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.twitter.com/vivygirly" target="_blank"><i class="fab fa-twitter"></i></a>
+
+                    </div>
+                    <a href="/images/VIVIAN O NWOKONKO, CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">&copy 2024 Vich Technologies. Powered by Vich Technologies</div>
+    </div>
+
+    <!-- end of contact -->
+
+
+     <!-- script for About page that manages the education,experience movement -->
+<script>
+
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname){
+        for( tablink of tablinks){
+            tablink.classList.remove('active-link');
+        }
+        for( tabcontent of tabcontents){
+            tabcontent.classList.remove('active-tab');
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab');
+    }
+    
+</script> 
+
+
+   
+    <!-- script for side menu bar on smaller screens -->
+    <script>
+        var sidemenu = document.getElementById('sidemenu');
+
+        function openmenu() {
+            sidemenu.style.right = '0';
+        }
+
+        function closemenu() {
+            sidemenu.style.right = '-200px';
+        }
+    </script>
+
+    <!-- script for excel sheet that sends you message from contact form -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyn7L9yqA_krSdpodLpwnQi4XxCotlGwyelJj2JuCCA5hxaIa8WIRjfeb6hb1GV7Clt7g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = 'Message sent successfully'
+                    setTimeout(function () {
+                        msg.innerHTML = ''
+
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <!-- script for totop cursor that takes you to top of the screen -->
+    <script>
+        const tag = document.querySelector("#to-top")
+        tag.onclick = e => {
+            window.scrollTo(0, 0)
+        }
+
+        window.addEventListener("scroll", function () {
+            if (window.pageYOffset > 100) {
+                tag.classList.add("false")
+            } else {
+                tag.classList.remove("false")
+            }
+        })
+    </script>
+
+</body>
+
+</html>
